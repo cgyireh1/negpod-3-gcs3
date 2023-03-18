@@ -1,8 +1,7 @@
 #!bin/bash
-echo "enter file" 
-read file1
-if [ -f "$file1" ]; then
-         if [ -s "$file1" ]; then
+touch file.txt
+if [ -f "$file.txt" ]; then
+         if [ -s "$file.txt" ]; then
 echo "0" 
 else 
 echo "1"
