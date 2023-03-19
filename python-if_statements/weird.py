@@ -7,4 +7,4 @@ m = int(input("Enter an integer: ")):
     elif m >= 6 and m <= 20:
         print("Weird")
     else:
-        print("Weird")
+        print("Not Weird")
